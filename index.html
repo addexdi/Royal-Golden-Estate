@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Royal Golden Estate | Own Prime Land in Ido, Ibadan</title>
-  <meta name="description" content="Royal Golden Estate is a premium residential land estate in Ido, Ibadan. Secure land ownership, flexible payment plans, verified documentation." />
+  <meta charset="UTF-8">
+  <title>Royal Golden Estate | Premium Land in Ido, Ibadan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Buy premium residential land at Royal Golden Estate, Ido Ibadan. Secure documentation, flexible payments, high appreciation potential.">
 
-  <!-- Tailwind CDN -->
+  <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
 
   <!-- Tailwind Config -->
@@ -22,148 +22,125 @@
       }
     }
   </script>
+
+  <!-- SEO SCHEMA -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "RealEstateAgent",
+    "name": "Royal Golden Estate",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ido",
+      "addressRegion": "Oyo",
+      "addressCountry": "NG"
+    },
+    "telephone": "+2348119692684",
+    "email": "fimolhomesandproperties@gmail.com"
+  }
+  </script>
 </head>
 
-<body class="bg-white text-gray-800 scroll-smooth">
+<body class="bg-white text-gray-800">
+
+<!-- WHATSAPP FLOATING CTA -->
+<a href="https://wa.me/2348119692684" target="_blank"
+   class="fixed bottom-6 right-6 bg-green-500 text-white px-5 py-3 rounded-full shadow-lg z-50 hover:bg-green-600 transition">
+  WhatsApp Us
+</a>
 
 <!-- HERO -->
-<section class="relative h-screen flex items-center justify-center text-center text-white">
-  <img src="https://images.unsplash.com/photo-1501183638710-841dd1904471" 
-       class="absolute inset-0 w-full h-full object-cover" alt="Land Estate">
-  <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+<section class="h-screen relative flex items-center justify-center text-center text-white">
+  <img src="https://images.unsplash.com/photo-1501183638710-841dd1904471"
+       class="absolute inset-0 w-full h-full object-cover">
+  <div class="absolute inset-0 bg-black/60"></div>
 
-  <div class="relative z-10 max-w-4xl px-6 animate-fade">
-    <h1 class="text-4xl md:text-6xl font-bold mb-4">
-      Royal Golden Estate
-    </h1>
-    <p class="text-xl md:text-2xl mb-6">
-      Own Prime Land. Secure Your Future. Live Royal.
-    </p>
-    <a href="#contact" 
-       class="inline-block bg-royal hover:bg-darkroyal text-black font-semibold px-8 py-4 rounded-lg transition">
-      Book a Site Inspection
+  <div class="relative z-10 max-w-4xl px-6 reveal">
+    <h1 class="text-5xl font-bold mb-4">Royal Golden Estate</h1>
+    <p class="text-xl mb-6">Own Prime Land. Secure Your Future. Live Royal.</p>
+    <a href="#contact" class="bg-royal text-black font-semibold px-8 py-4 rounded-lg hover:bg-darkroyal transition">
+      Book Site Inspection
     </a>
   </div>
 </section>
 
 <!-- ABOUT -->
-<section class="py-20 px-6 max-w-7xl mx-auto">
+<section class="py-20 max-w-7xl mx-auto px-6 reveal">
   <div class="grid md:grid-cols-2 gap-12 items-center">
     <div>
       <h2 class="text-3xl font-bold mb-6">About Royal Golden Estate</h2>
       <p class="mb-4">
-        Royal Golden Estate is a premium residential land estate located in 
-        <strong>Ido, Ibadan, Oyo State</strong>. It is designed for individuals,
-        families, and investors seeking secure land ownership and long-term appreciation.
+        Royal Golden Estate is a premium residential land estate located in Ido, Ibadan.
+        Designed for investors, families, and diaspora buyers seeking secure land ownership
+        with long-term appreciation.
       </p>
       <p>
-        Whether you plan to build immediately, invest for resale, or hold land
-        for the future, Royal Golden Estate offers a reliable and strategic entry
-        into Ibadan’s expanding real estate market.
+        Ideal for building, rental development, or land banking.
       </p>
     </div>
     <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
-         class="rounded-xl shadow-lg" alt="Residential Estate">
+         class="rounded-xl shadow-lg">
   </div>
 </section>
 
-<!-- LOCATION -->
-<section class="bg-gray-100 py-20 px-6">
-  <div class="max-w-7xl mx-auto">
-    <h2 class="text-3xl font-bold mb-6 text-center">Strategic Location – Ido, Ibadan</h2>
-    <p class="text-center max-w-3xl mx-auto mb-10">
-      Ido is one of Ibadan’s fastest-growing corridors, offering affordability,
-      strong appreciation potential, and increasing residential demand.
-    </p>
-
-    <div class="grid md:grid-cols-3 gap-6">
-      <div class="bg-white p-6 rounded-lg shadow">Rapid Urban Expansion</div>
-      <div class="bg-white p-6 rounded-lg shadow">High Housing Demand</div>
-      <div class="bg-white p-6 rounded-lg shadow">Affordable Entry Prices</div>
-      <div class="bg-white p-6 rounded-lg shadow">Future Infrastructure Growth</div>
-      <div class="bg-white p-6 rounded-lg shadow">Investor-Friendly Zone</div>
-      <div class="bg-white p-6 rounded-lg shadow">Strong Appreciation Potential</div>
-    </div>
+<!-- IMAGE SLIDER -->
+<section class="bg-gray-100 py-20 reveal">
+  <h2 class="text-3xl font-bold text-center mb-8">Estate Gallery</h2>
+  <div class="relative max-w-4xl mx-auto">
+    <img id="slider" class="rounded-xl shadow-lg w-full h-80 object-cover"
+         src="https://images.unsplash.com/photo-1560518883-ce09059eeffa">
   </div>
 </section>
 
 <!-- FEATURES -->
-<section class="py-20 px-6 max-w-7xl mx-auto">
-  <h2 class="text-3xl font-bold mb-10 text-center">Estate Features</h2>
-
+<section class="py-20 max-w-7xl mx-auto px-6 reveal">
+  <h2 class="text-3xl font-bold text-center mb-10">Estate Features</h2>
   <div class="grid md:grid-cols-3 gap-8">
-    <div class="p-6 border rounded-lg hover:shadow-lg transition">
-      <h3 class="font-semibold mb-2">Surveyed & Demarcated Plots</h3>
-      <p>Clearly defined plots for transparency and ease of allocation.</p>
-    </div>
-    <div class="p-6 border rounded-lg hover:shadow-lg transition">
-      <h3 class="font-semibold mb-2">Good Road Layout</h3>
-      <p>Planned internal road network for accessibility.</p>
-    </div>
-    <div class="p-6 border rounded-lg hover:shadow-lg transition">
-      <h3 class="font-semibold mb-2">Planned Drainage</h3>
-      <p>Drainage design to support long-term habitability.</p>
-    </div>
-    <div class="p-6 border rounded-lg hover:shadow-lg transition">
-      <h3 class="font-semibold mb-2">Residential Zoning</h3>
-      <p>Suitable for bungalows, duplexes, and rental homes.</p>
-    </div>
-    <div class="p-6 border rounded-lg hover:shadow-lg transition">
-      <h3 class="font-semibold mb-2">Calm Environment</h3>
-      <p>Peaceful setting ideal for family living.</p>
-    </div>
-    <div class="p-6 border rounded-lg hover:shadow-lg transition">
-      <h3 class="font-semibold mb-2">Organized Estate Layout</h3>
-      <p>Structured planning ensures long-term value.</p>
-    </div>
+    <div class="border p-6 rounded-lg">Surveyed & Demarcated Plots</div>
+    <div class="border p-6 rounded-lg">Planned Road Network</div>
+    <div class="border p-6 rounded-lg">Residential Zoning</div>
+    <div class="border p-6 rounded-lg">Calm & Secure Environment</div>
+    <div class="border p-6 rounded-lg">Planned Drainage</div>
+    <div class="border p-6 rounded-lg">High Appreciation Potential</div>
   </div>
 </section>
 
-<!-- DOCUMENTATION -->
-<section class="bg-gray-100 py-20 px-6">
-  <div class="max-w-5xl mx-auto text-center">
-    <h2 class="text-3xl font-bold mb-6">Legal Documentation</h2>
-    <p class="mb-6">
-      Buyers receive proper land documentation to ensure peace of mind and legal ownership.
-    </p>
-    <ul class="space-y-3">
-      <li>✔ Survey Plan</li>
-      <li>✔ Deed of Assignment</li>
-      <li>✔ Other Relevant Land Documents</li>
-    </ul>
+<!-- MAP -->
+<section class="bg-gray-100 py-20 reveal">
+  <h2 class="text-3xl font-bold text-center mb-6">Estate Location</h2>
+  <div class="max-w-5xl mx-auto px-6">
+    <iframe
+      src="https://www.google.com/maps?q=Ido,+Ibadan,+Oyo+State&output=embed"
+      class="w-full h-96 rounded-lg"
+      loading="lazy">
+    </iframe>
   </div>
 </section>
 
-<!-- PAYMENT -->
-<section class="py-20 px-6 max-w-6xl mx-auto">
-  <h2 class="text-3xl font-bold mb-8 text-center">Flexible Payment Options</h2>
-  <div class="grid md:grid-cols-2 gap-8">
-    <div class="border p-6 rounded-lg">
-      <h3 class="font-semibold mb-2">Outright Payment</h3>
-      <p>Immediate ownership with full documentation.</p>
-    </div>
-    <div class="border p-6 rounded-lg">
-      <h3 class="font-semibold mb-2">Installment Plans</h3>
-      <p>Flexible plans available (terms and conditions apply).</p>
-    </div>
-  </div>
-</section>
+<!-- CONTACT / CONVERSION ZONE -->
+<section id="contact" class="py-20 bg-black text-white reveal">
+  <div class="max-w-4xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-6">Book a Site Inspection</h2>
 
-<!-- CONTACT -->
-<section id="contact" class="bg-black text-white py-20 px-6">
-  <div class="max-w-6xl mx-auto text-center">
-    <h2 class="text-3xl font-bold mb-6">Book a Site Inspection</h2>
-    <p class="mb-8">
-      Contact us today to get current prices, reserve a plot, or schedule a site visit.
-    </p>
+    <!-- FORM (EMAIL INTEGRATION) -->
+    <form action="https://formsubmit.co/fimolhomesandproperties@gmail.com" method="POST"
+          class="grid gap-4">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="New Royal Golden Estate Enquiry">
 
-    <div class="space-y-4">
-      <p>📞 0811 969 2684 | 0704 514 9357 | 0814 261 9300</p>
-      <p>📧 fimolhomesandproperties@gmail.com</p>
-      <p>
-        🏢 No. 2 Oba Ogundipe Bypass, Liberty Stadium Road, Ibadan, Oyo State
-      </p>
-    </div>
+      <input required name="name" placeholder="Full Name"
+             class="p-4 rounded text-black">
+      <input required name="phone" placeholder="Phone Number"
+             class="p-4 rounded text-black">
+      <input required name="email" placeholder="Email Address"
+             class="p-4 rounded text-black">
+      <textarea name="message" placeholder="Message"
+                class="p-4 rounded text-black"></textarea>
+
+      <button class="bg-royal text-black font-semibold py-4 rounded hover:bg-darkroyal">
+        Submit Enquiry
+      </button>
+    </form>
   </div>
 </section>
 
@@ -172,16 +149,34 @@
   © 2026 Royal Golden Estate. All Rights Reserved.
 </footer>
 
-<!-- SIMPLE ANIMATION -->
-<style>
-@keyframes fade {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-.animate-fade {
-  animation: fade 1.2s ease-out forwards;
-}
-</style>
+<!-- INTERSECTION OBSERVER -->
+<script>
+const reveals = document.querySelectorAll('.reveal');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('opacity-100','translate-y-0');
+    }
+  });
+}, { threshold: 0.15 });
+
+reveals.forEach(el => {
+  el.classList.add('opacity-0','translate-y-6','transition','duration-700');
+  observer.observe(el);
+});
+
+// Image Slider
+const images = [
+  "https://images.unsplash.com/photo-1560518883-ce09059eeffa",
+  "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+  "https://images.unsplash.com/photo-1505691938895-1758d7feb511"
+];
+let index = 0;
+setInterval(() => {
+  index = (index + 1) % images.length;
+  document.getElementById('slider').src = images[index];
+}, 4000);
+</script>
 
 </body>
 </html>
